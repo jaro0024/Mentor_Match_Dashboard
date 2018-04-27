@@ -1,5 +1,5 @@
 import React from "react";
-import "./Nav.css";
+// import "./Nav.css";
 
 const Nav = props => (
     <nav>
@@ -9,14 +9,14 @@ const Nav = props => (
                     {props.title}
                 </a>
             </li>
-            <li id="rw">
-                {props.guessStatus}
+            <li>
+
             </li>
             <li>
-                Current Score: {props.score}
+                
             </li>
             <li>
-                Best Score: {props.topScore}
+                
             </li>
         </ul>
     </nav>
