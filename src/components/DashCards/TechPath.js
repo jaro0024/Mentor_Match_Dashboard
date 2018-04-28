@@ -1,4 +1,5 @@
 import React from "react"; 
+import "./DashCards.css";
 
 
 class TechPath extends React.Component { 

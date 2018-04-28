@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Wrapper.css";
+import "./Wrapper.css";
 
 const Wrapper = props => <main className="wrapper" {...props} />;
 
