@@ -9,6 +9,8 @@ import Column from "./components/Column";
 import Row from "./components/Row";
 import Footer from "./components/Footer";
 import TechPath from "./components/DashCards/TechPath";
+import PrevConnect from "./components/DashCards/PreviousConnections";
+import Resources from "./components/DashCards/MyResources";
 // import './App.css';
 
 
@@ -26,11 +28,17 @@ class App extends Component {
         <Wrapper>
           <Container>
             <Row>
-              <Column size="md-6 sm-3">
-
-              <TechPath/>
-
+              <Column size="md-4 sm-3">
+                <PrevConnect />
               </Column>
+              <Column size="md-4 sm-3">
+               <TechPath />
+              </Column>
+              <Column size="md-4 sm-3">
+                <Resources />
+              </Column>
+
+
 
             </Row>
 
